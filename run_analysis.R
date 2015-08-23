@@ -53,4 +53,4 @@ names(tidyDataAVGSet)[1] <- "Subject"
 names(tidyDataAVGSet)[2] <- "Activity"
 
 # Write data to txt file for course upload
-write.table(tidyDataAVGSet, file = "./tidy_data.txt")
+write.table(tidyDataAVGSet, file = "./tidy_data.txt", row.name=FALSE)
